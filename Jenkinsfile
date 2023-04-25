@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        registry = "moiseevdi/simple-back"
+        registry = "moiseevdi/ip-simple-back"
         registryCredential = 'dockerhub'
         dockerImage = ''
     }
