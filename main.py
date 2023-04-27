@@ -6,6 +6,6 @@ app = FastAPI()
 
 @app.get("/newssa")
 async def root():
-    raw = requests.get("http://logic/v1alpha/newsanalyses")
+    raw = requests.get("http://logic/v1/newsanalyses")
     pprint(raw.json())
     return raw.json()
